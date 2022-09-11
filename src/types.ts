@@ -1,7 +1,7 @@
 export interface IChainData {
   name: string;
   chain: string;
-  icon: string;
+  icon?: string;
   rpc: string[];
   faucets: string[];
   nativeCurrency: {
@@ -13,12 +13,17 @@ export interface IChainData {
   shortName: string;
   chainId: number;
   networkId: number;
+  slip44?: number;
   ens: {
     registry: string;
   };
-  explorers: {
+  explorers?: {
     name: string;
     url: string;
     standard: string;
+    icon?: string;
   };
+  title?: string;
+  status?: string;
+  redFlags?: string[];
 }
