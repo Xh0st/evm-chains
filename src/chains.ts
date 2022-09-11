@@ -3581,7 +3581,9 @@ export const chains: IChainData[] = [
     shortName: 'PFTEST',
     chainId: 808,
     networkId: 808,
-    explorers: [],
+    explorers: {
+      url: 'https://unknow',
+    },
   },
   {
     name: 'Callisto Mainnet',
@@ -3754,7 +3756,9 @@ export const chains: IChainData[] = [
     shortName: 'PF',
     chainId: 909,
     networkId: 909,
-    explorers: [],
+    explorers: {
+      url: 'https://unknow',
+    },
     status: 'incubating',
   },
   {
@@ -5898,7 +5902,9 @@ export const chains: IChainData[] = [
     shortName: 'hmnd',
     chainId: 5234,
     networkId: 5234,
-    explorers: [],
+    explorers: {
+      url: 'https://unknow',
+    },
   },
   {
     name: 'Uzmi Network Mainnet',
@@ -6335,7 +6341,9 @@ export const chains: IChainData[] = [
     chainId: 8654,
     networkId: 8654,
     icon: 'toki',
-    explorers: [],
+    explorers: {
+      url: 'https://unknow',
+    },
   },
   {
     name: 'Toki Testnet',
@@ -6352,7 +6360,9 @@ export const chains: IChainData[] = [
     chainId: 8655,
     networkId: 8655,
     icon: 'toki',
-    explorers: [],
+    explorers: {
+      url: 'https://unknow',
+    },
   },
   {
     name: 'TOOL Global Mainnet',
@@ -8943,7 +8953,9 @@ export const chains: IChainData[] = [
     shortName: 'SoChain',
     chainId: 281121,
     networkId: 281121,
-    explorers: [],
+    explorers: {
+      url: 'https://unknow',
+    },
   },
   {
     name: 'Polis Testnet',
@@ -9137,7 +9149,9 @@ export const chains: IChainData[] = [
     },
     rpc: ['https://rpc.etherfair.org'],
     faucets: [],
-    explorers: [],
+    explorers: {
+      url: 'https://unknow',
+    },
     infoURL: 'https://etherfair.org',
   },
   {
