@@ -1,16 +1,24 @@
 export interface IChainData {
   name: string;
-  chainId: number;
-  shortName: string;
   chain: string;
-  network: string;
-  networkId: number;
+  icon: string;
+  rpc: string[];
+  faucets: string[];
   nativeCurrency: {
     name: string;
     symbol: string;
     decimals: number;
   };
-  rpc: string[];
-  faucets: string[];
   infoURL: string;
+  shortName: string;
+  chainId: number;
+  networkId: number;
+  ens: {
+    registry: string;
+  };
+  explorers: {
+    name: string;
+    url: string;
+    standard: string;
+  };
 }
