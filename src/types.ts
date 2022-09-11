@@ -17,4 +17,13 @@ export interface IChainData {
   ens?: {
     registry: string;
   };
+  explorers?: {
+    name?: string;
+    url?: string;
+    standard?: string;
+    icon?: string;
+  };
+  title?: string;
+  status?: string;
+  redFlags?: string[];
 }
