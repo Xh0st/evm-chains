@@ -6,8 +6,8 @@ export const chains: IChainData[] = [
     chain: 'ETH',
     icon: 'ethereum',
     rpc: [
-      'https://mainnet.infura.io/v3/${INFURA_API_KEY}',
-      'wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}',
+      'https://mainnet.infura.io/v3/',
+      'wss://mainnet.infura.io/ws/v3/',
       'https://api.mycryptoapi.com/eth',
       'https://cloudflare-eth.com',
     ],
@@ -51,12 +51,12 @@ export const chains: IChainData[] = [
     title: 'Ethereum Testnet Ropsten',
     chain: 'ETH',
     rpc: [
-      'https://ropsten.infura.io/v3/${INFURA_API_KEY}',
-      'wss://ropsten.infura.io/ws/v3/${INFURA_API_KEY}',
+      'https://ropsten.infura.io/v3/',
+      'wss://ropsten.infura.io/ws/v3/',
     ],
     faucets: [
-      'http://fauceth.komputing.org?chain=3&address=${ADDRESS}',
-      'https://faucet.ropsten.be?${ADDRESS}',
+      'http://fauceth.komputing.org?chain=3&address=',
+      'https://faucet.ropsten.be?',
     ],
     nativeCurrency: {
       name: 'Ropsten Ether',
@@ -81,11 +81,11 @@ export const chains: IChainData[] = [
     title: 'Ethereum Testnet Rinkeby',
     chain: 'ETH',
     rpc: [
-      'https://rinkeby.infura.io/v3/${INFURA_API_KEY}',
-      'wss://rinkeby.infura.io/ws/v3/${INFURA_API_KEY}',
+      'https://rinkeby.infura.io/v3/',
+      'wss://rinkeby.infura.io/ws/v3/',
     ],
     faucets: [
-      'http://fauceth.komputing.org?chain=4&address=${ADDRESS}',
+      'http://fauceth.komputing.org?chain=4&address=',
       'https://faucet.rinkeby.io',
     ],
     nativeCurrency: {
@@ -111,13 +111,13 @@ export const chains: IChainData[] = [
     title: 'Ethereum Testnet Görli',
     chain: 'ETH',
     rpc: [
-      'https://goerli.infura.io/v3/${INFURA_API_KEY}',
-      'wss://goerli.infura.io/v3/${INFURA_API_KEY}',
+      'https://goerli.infura.io/v3/',
+      'wss://goerli.infura.io/v3/',
       'https://rpc.goerli.mudit.blog/',
     ],
     faucets: [
-      'http://fauceth.komputing.org?chain=5&address=${ADDRESS}',
-      'https://goerli-faucet.slock.it?address=${ADDRESS}',
+      'http://fauceth.komputing.org?chain=5&address=',
+      'https://goerli-faucet.slock.it?address=',
       'https://faucet.goerli.mudit.blog',
     ],
     nativeCurrency: {
@@ -312,7 +312,7 @@ export const chains: IChainData[] = [
     rpc: ['https://coston-api.flare.network/ext/bc/C/rpc'],
     faucets: [
       'https://faucet.towolabs.com',
-      'https://fauceth.komputing.org?chain=16&address=${ADDRESS}',
+      'https://fauceth.komputing.org?chain=16&address=',
     ],
     nativeCurrency: {
       name: 'Coston Flare',
@@ -772,12 +772,12 @@ export const chains: IChainData[] = [
     rpc: [
       'https://kovan.poa.network',
       'http://kovan.poa.network:8545',
-      'https://kovan.infura.io/v3/${INFURA_API_KEY}',
-      'wss://kovan.infura.io/ws/v3/${INFURA_API_KEY}',
+      'https://kovan.infura.io/v3/',
+      'wss://kovan.infura.io/ws/v3/',
       'ws://kovan.poa.network:8546',
     ],
     faucets: [
-      'http://fauceth.komputing.org?chain=42&address=${ADDRESS}',
+      'http://fauceth.komputing.org?chain=42&address=',
       'https://faucet.kovan.network',
       'https://gitter.im/kovan-testnet/faucet',
     ],
@@ -1284,7 +1284,7 @@ export const chains: IChainData[] = [
     title: 'Optimism Testnet Kovan',
     chain: 'ETH',
     rpc: ['https://kovan.optimism.io/'],
-    faucets: ['http://fauceth.komputing.org?chain=69&address=${ADDRESS}'],
+    faucets: ['http://fauceth.komputing.org?chain=69&address='],
     nativeCurrency: {
       name: 'Kovan Ether',
       symbol: 'ETH',
@@ -2481,7 +2481,7 @@ export const chains: IChainData[] = [
     chain: 'EDI',
     rpc: [
       'http://13.57.207.168:3435',
-      'https://app.freighttrust.net/ftn/${API_KEY}',
+      'https://app.freighttrust.net/ftn/',
     ],
     faucets: ['http://faucet.freight.sh'],
     nativeCurrency: {
@@ -6186,7 +6186,7 @@ export const chains: IChainData[] = [
     networkId: 7777,
     explorers: {
       name: 'avascan',
-      url: 'https://testnet.avascan.info/blockchain/2mZ9doojfwHzXN3VXDQELKnKyZYxv7833U8Yq5eTfFx3hxJtiy',
+      url: 'https://testnet.avascan.info/blockchain/',
       standard: 'none',
     },
   },
@@ -7409,8 +7409,8 @@ export const chains: IChainData[] = [
       decimals: 18,
     },
     rpc: [
-      'https://arbitrum-mainnet.infura.io/v3/${INFURA_API_KEY}',
-      'https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}',
+      'https://arbitrum-mainnet.infura.io/v3/',
+      'https://arb-mainnet.g.alchemy.com/v2/',
       'https://arb1.arbitrum.io/rpc',
     ],
     faucets: [],
@@ -7511,7 +7511,7 @@ export const chains: IChainData[] = [
     name: 'Athereum',
     chain: 'ATH',
     rpc: ['https://ava.network:21015/ext/evm/rpc'],
-    faucets: ['http://athfaucet.ava.network//?address=${ADDRESS}'],
+    faucets: ['http://athfaucet.ava.network//?address='],
     nativeCurrency: {
       name: 'Athereum Ether',
       symbol: 'ATH',
@@ -9021,7 +9021,7 @@ export const chains: IChainData[] = [
       decimals: 18,
     },
     rpc: ['https://rinkeby.arbitrum.io/rpc'],
-    faucets: ['http://fauceth.komputing.org?chain=421611&address=${ADDRESS}'],
+    faucets: ['http://fauceth.komputing.org?chain=421611&address='],
     infoURL: 'https://arbitrum.io',
     explorers: {
       name: 'arbiscan-testnet',
@@ -9363,7 +9363,7 @@ export const chains: IChainData[] = [
     chain: 'ETH',
     rpc: ['https://rpc.kintsugi.themerge.dev'],
     faucets: [
-      'http://fauceth.komputing.org?chain=1337702&address=${ADDRESS}',
+      'http://fauceth.komputing.org?chain=1337702&address=',
       'https://faucet.kintsugi.themerge.dev',
     ],
     nativeCurrency: {
@@ -9544,7 +9544,7 @@ export const chains: IChainData[] = [
       'https://rpc.sepolia.org',
       'https://rpc-sepolia.rockx.com',
     ],
-    faucets: ['http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}'],
+    faucets: ['http://fauceth.komputing.org?chain=11155111&address='],
     nativeCurrency: {
       name: 'Sepolia Ether',
       symbol: 'SEP',
@@ -10171,7 +10171,7 @@ export const chains: IChainData[] = [
     name: 'Palm Testnet',
     chain: 'Palm',
     icon: 'palm',
-    rpc: ['https://palm-testnet.infura.io/v3/${INFURA_API_KEY}'],
+    rpc: ['https://palm-testnet.infura.io/v3/'],
     faucets: [],
     nativeCurrency: {
       name: 'PALM',
@@ -10193,7 +10193,7 @@ export const chains: IChainData[] = [
     name: 'Palm',
     chain: 'Palm',
     icon: 'palm',
-    rpc: ['https://palm-mainnet.infura.io/v3/${INFURA_API_KEY}'],
+    rpc: ['https://palm-mainnet.infura.io/v3/'],
     faucets: [],
     nativeCurrency: {
       name: 'PALM',
