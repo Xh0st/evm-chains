@@ -49,7 +49,7 @@ export const chains: IChainData[] = [
   {
     name: 'Ropsten',
     title: 'Ethereum Testnet Ropsten',
-    chain: 'ETH',
+    chain: 'tETH',
     rpc: ['https://ropsten.infura.io/v3/', 'wss://ropsten.infura.io/ws/v3/'],
     faucets: [
       'http://fauceth.komputing.org?chain=3&address=',
@@ -57,7 +57,7 @@ export const chains: IChainData[] = [
     ],
     nativeCurrency: {
       name: 'Ropsten Ether',
-      symbol: 'ETH',
+      symbol: 'tETH',
       decimals: 18,
     },
     infoURL: 'https://github.com/ethereum/ropsten',
@@ -103,7 +103,7 @@ export const chains: IChainData[] = [
   {
     name: 'Goerli Testnet',
     title: 'Ethereum Testnet Görli',
-    chain: 'ETH',
+    chain: 'tETH',
     rpc: [
       'https://goerli.infura.io/v3/',
       'wss://goerli.infura.io/v3/',
@@ -1768,7 +1768,7 @@ export const chains: IChainData[] = [
   },
   {
     name: 'BNB Smart Chain Testnet',
-    chain: 'BSC',
+    chain: 'tBSC',
     rpc: [
       'https://data-seed-prebsc-1-s1.binance.org:8545',
       'https://data-seed-prebsc-2-s1.binance.org:8545',
