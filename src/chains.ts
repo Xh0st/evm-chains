@@ -101,7 +101,7 @@ export const chains: IChainData[] = [
     },
   },
   {
-    name: 'Görli',
+    name: 'Goerli Testnet',
     title: 'Ethereum Testnet Görli',
     chain: 'ETH',
     rpc: [
@@ -116,7 +116,7 @@ export const chains: IChainData[] = [
     ],
     nativeCurrency: {
       name: 'Görli Ether',
-      symbol: 'ETH',
+      symbol: 'tETH',
       decimals: 18,
     },
     infoURL: 'https://goerli.net/#about',
@@ -1009,7 +1009,7 @@ export const chains: IChainData[] = [
     },
   },
   {
-    name: 'Binance Smart Chain Mainnet',
+    name: 'BNB Smart Chain',
     chain: 'BSC',
     rpc: [
       'https://bsc-dataseed1.binance.org',
@@ -1767,7 +1767,7 @@ export const chains: IChainData[] = [
     },
   },
   {
-    name: 'Binance Smart Chain Testnet',
+    name: 'BNB Smart Chain Testnet',
     chain: 'BSC',
     rpc: [
       'https://data-seed-prebsc-1-s1.binance.org:8545',
