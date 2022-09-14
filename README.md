@@ -9,7 +9,7 @@ Package to query chain data from [ethereum-lists/chains](https://github.com/ethe
 ## Install
 
 ```sh
-npm install --save evm-chains
+npm i @zh0st/evm-chains
 
 #or
 
