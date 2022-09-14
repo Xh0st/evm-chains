@@ -1,3 +1,7 @@
+#updated
+
+Updated with the latest chain data from [ethereum-lists/chains](https://github.com/ethereum-lists/chains)
+
 # evm-chains
 
 Package to query chain data from [ethereum-lists/chains](https://github.com/ethereum-lists/chains)
@@ -27,22 +31,36 @@ function convertChainIdToNetworkId(chainId: number): number;
 ## Types
 
 ```typescript
-interface IChainData {
+export interface IChainData {
   name: string;
-  chainId: number;
-  shortName: string;
   chain: string;
-  network: string;
-  networkId: number;
+  icon?: string;
+  rpc: string[];
+  faucets?: string[];
   nativeCurrency: {
     name: string;
     symbol: string;
     decimals: number;
   };
-  rpc: string[];
-  faucets: string[];
   infoURL: string;
+  shortName: string;
+  chainId: number;
+  networkId: number;
+  slip44?: number;
+  ens?: {
+    registry: string;
+  };
+  explorers?: {
+    name?: string;
+    url?: string;
+    standard?: string;
+    icon?: string;
+  };
+  title?: string;
+  status?: string;
+  redFlags?: string[];
 }
+
 ```
 
 ## Data Source
