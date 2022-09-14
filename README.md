@@ -1,4 +1,4 @@
-#updated
+# updated
 
 Updated with the latest chain data from [ethereum-lists/chains](https://github.com/ethereum-lists/chains)
 
