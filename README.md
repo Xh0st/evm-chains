@@ -16,6 +16,16 @@ npm install --save evm-chains
 yarn add evm-chains
 ```
 
+## JS 
+
+```javascript
+const evmChains = window.evmChains;
+const chainData = evmChains.getChain(1);
+const chainName = chainData.name;
+const chainRPC = chainData.rpc;
+const chainSymbol = chainData.nativeCurrency.symbol;
+```
+
 ## API
 
 ```typescript
